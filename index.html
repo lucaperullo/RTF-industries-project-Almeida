@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/logo-small.png" />
+    <link
+      rel="icon"
+      href="https://media.discordapp.net/attachments/758014442024861756/864667086991130636/RTFpng.png"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap"
@@ -26,14 +29,18 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <script src="./assets/elevator.js"></script>
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>Home Page</title>
+    <title>RTF</title>
   </head>
   <body onscroll="_bodyColorOnScroll()">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><img class="logo-small" src="./assets/logo-croped.png" height="35"
+          ><img
+            class="logo-small"
+            src="https://media.discordapp.net/attachments/758014442024861756/864667086991130636/RTFpng.png"
+            height="35"
         /></a>
         <button
           class="navbar-toggler"
@@ -51,17 +58,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#components">Components</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#app">App</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
+              <a class="nav-link" href="./assets/Flyer_PBL2_G1.pptx" download="Flyer">Download Flyer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/manual.pdf" download="Flyer">Download Manual</a>
+        </li>
           </ul>
         </div>
       </div>
@@ -72,121 +83,220 @@
           <div id="col-img-1" class="col"></div>
 
           <div class="col">
-            <div class="text-heading"><h1>"Some text here"</h1></div>
+            <div class="text-heading"><h1>RTF</h1></div>
           </div>
         </div>
       </div>
       <div id="box" class="container">
         <div class="row row-cols-2">
           <div class="col">
-            <div class="text-heading"><h1>"Some text here"</h1></div>
+            <div class="text-heading"><h1>We Are Connected</h1></div>
           </div>
 
           <div id="col-img-2" class="col"></div>
         </div>
       </div>
     </div>
+    <div class="backtoTop">
+      <div class="elevator-button">
+        <img
+          src="https://i.pinimg.com/originals/74/15/1a/74151ae9f6e43da154a2fa28642db4d4.png"
+          height="50"
+          alt="up"
+        />
+      </div>
+    </div>
+    <div
+      style="
+        display: flex;
+
+        padding: 20px;
+        flex-direction: column;
+      "
+    >
+      <div
+        style="
+          padding: 20px;
+          background-color: white;
+          border-radius: 14px;
+          margin-bottom: 70px;
+        "
+      >
+        <h1 id="components">#Components</h1>
+      </div>
+      <div class="image-right">
+        <div style="display: flex; flex-direction: column">
+          <h1 class="title">
+            electrical board with call panel, nexion display and inspection
+            module
+          </h1>
+          <img
+            height="300"
+            width="400"
+            class="img-responsive"
+            src="./assets/electrical_board-removebg-preview.png"
+            alt="board"
+          />
+        </div>
+      </div>
+      <div class="image-left">
+        <div style="display: flex; flex-direction: column">
+          <h1 class="title">elevator</h1>
+          <img
+            height="300"
+            width="70"
+            src="./assets/elevator-removebg-preview.png"
+            class="img-responsive"
+            alt="board"
+          />
+        </div>
+      </div>
+      <div class="image-right">
+        <div style="display: flex; flex-direction: column">
+          <h1 class="title">PLC close up</h1>
+          <img
+            height="300"
+            width="400"
+            class="img-responsive"
+            src="./assets/PLC_closeup-removebg-preview.png"
+            alt="board"
+          />
+        </div>
+      </div>
+      <div class="image-left">
+        <div style="display: flex; flex-direction: column">
+          <h1 class="title">Electrical board components close up</h1>
+          <img
+          
+            height="500"
+            width="500"
+            src="./assets/electrical_board_close_up.jpg"
+            class="img-responsive"
+            alt="board"
+          />
+        </div>
+      </div>
+      <div
+        style="
+          padding: 20px;
+          background-color: white;
+          border-radius: 14px;
+          margin-bottom: 70px;
+        "
+      >
+        <h1 id="app">#App</h1>
+      </div>
+        <div class="image-right">
+          <div style="display: flex; flex-direction: column">
+            <h1 class="title">smaRTFloor, connection window</h1>
+            <img
+           
+              class="img-responsive"
+              src="./assets/1.png"
+              alt="board"
+            />
+          </div>
+        </div>
+        <div class="image-left">
+          <div style="display: flex; flex-direction: column">
+            <h1 class="title">smaRTFloor, testing window</h1>
+            <img
+            
+              src="./assets/2.png"
+              class="img-responsive"
+              alt="board"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+    style="
+      padding: 20px;
+      background-color: white;
+      border-radius: 14px;
+      margin-bottom: 70px;
+    "
+  >
+    <h1 id="aboutus">#About Us</h1>
+  </div>
     <div id="footer-content" class="container-fluid">
-      <div id="reviews" class="splide">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
-              <div class="card">
-                <div class="card-header">Quote</div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p>
-                      A well-known quote, contained in a blockquote element.
-                    </p>
-                    <footer class="blockquote-footer">
-                      Someone famous in
-                      <cite title="Source Title">Source Title</cite>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="card">
-                <div class="card-header">Quote</div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p>
-                      A well-known quote, contained in a blockquote element.
-                    </p>
-                    <footer class="blockquote-footer">
-                      Someone famous in
-                      <cite title="Source Title">Source Title</cite>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="card">
-                <div class="card-header">Quote</div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p>
-                      A well-known quote, contained in a blockquote element.
-                    </p>
-                    <footer class="blockquote-footer">
-                      Someone famous in
-                      <cite title="Source Title">Source Title</cite>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="card">
-                <div class="card-header">Quote</div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p>
-                      A well-known quote, contained in a blockquote element.
-                    </p>
-                    <footer class="blockquote-footer">
-                      Someone famous in
-                      <cite title="Source Title">Source Title</cite>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="card">
-                <div class="card-header">Quote</div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p>
-                      A well-known quote, contained in a blockquote element.
-                    </p>
-                    <footer class="blockquote-footer">
-                      Someone famous in
-                      <cite title="Source Title">Source Title</cite>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div class="card">
-                <div class="card-header">Quote</div>
-                <div class="card-body">
-                  <blockquote class="blockquote mb-0">
-                    <p>
-                      A well-known quote, contained in a blockquote element.
-                    </p>
-                    <footer class="blockquote-footer">
-                      Someone famous in
-                      <cite title="Source Title">Source Title</cite>
-                    </footer>
-                  </blockquote>
-                </div>
-              </div>
-            </li>
-          </ul>
+      <div style="display: flex; justify-content: center">
+        <div
+          style="
+            height: auto;
+            display: flex;
+            width: 80vw;
+
+            justify-content: space-evenly;
+            background-color: rgba(20, 20, 20, 0.377);
+            padding: 0px;
+            border-radius: 14px;
+            color: white;
+          "
+        >
+          <div>
+            <div
+              style="
+                display: flex;
+                overflow: hidden;
+                width: 300px;
+                height: auto;
+                padding-top: 20px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              "
+            >
+              <img src="./assets/francisco.png" class="aboutUs" />
+              <h3>Francisco Moreira</h3>
+              <h5>Head of Administration</h5>
+              <h6>Graphics Designer</h6>
+              <h6>Omron and Schneider PLC Programmer</h6>
+              <h6>Nextion Programmer</h6>
+            </div>
+          </div>
+          <div>
+            <div
+              style="
+                display: flex;
+                overflow: hidden;
+                width: 300px;
+                height: auto;
+                padding-top: 20px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              "
+            >
+              <img src="./assets/filipe.png" class="aboutUs" />
+              <h3>Filipe Almeida</h3>
+              <h5>Head of Development</h5>
+              <h6>C# Programmer</h6>
+              <h6>Omron and Schneider PLC Programmer</h6>
+              <h6>Web Designer</h6>
+            </div>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              overflow: hidden;
+              width: 300px;
+              height: auto;
+              padding-top: 20px;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+            "
+          >
+            <img src="./assets/ruben.png" class="aboutUs" />
+            <h3>Ruben Rodrigues</h3>
+            <h5>Assembly Supervisor</h5>
+            <h6>electrical schematic designer</h6>
+            <h6>electrotechnician</h6>
+            <h6>Arduino Programmer</h6>
+          </div>
         </div>
       </div>
     </div>
@@ -197,5 +307,16 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+    <script>
+      // Elevator script included on the page, already.
+
+      window.onload = function () {
+        var elevator = new Elevator({
+          element: document.querySelector(".elevator-button"),
+          mainAudio: "./assets/demo_music_elevator.mp3",
+          endAudio: "./assets/demo_music_ding.mp3",
+        });
+      };
+    </script>
   </body>
 </html>
